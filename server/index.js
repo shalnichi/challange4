@@ -20,7 +20,7 @@ app.get("/carimobil", (req, res) => {
     const letakFile = path.join(__dirname,"../data/cars.json");
     let bacaFile= fs.readFileSync(letakFile,"utf-8");
     // bacaFile = JSON.parse(bacaFile);
-    const {tipedriver,tanggal,waktujemput,jumlahpenumpang} = req.query;
+    // const {tipedriver,tanggal,waktujemput,jumlahpenumpang} = req.query;
     // const hasil = bacaFile.filter((el)=>{
     //     return (el.capacity===jumlahpenumpang)&&(el.availableAt===new Date (tanggal+ " " +waktujemput))
     // })
