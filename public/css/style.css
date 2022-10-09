@@ -1,0 +1,19 @@
+.texthero{
+    width: 560px;
+}
+
+.texthero>h1{
+    padding-bottom: 10px;
+}
+
+.texthero>p{
+    padding-bottom: 15px;
+}
+
+.hero{
+    margin-top: -55px!important;
+}
+
+
+
+
